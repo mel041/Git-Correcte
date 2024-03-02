@@ -30,4 +30,6 @@ def buscar_contacto(agenda):
         print("Name:", nombre, "\tPhone number:", agenda[nombre])
     else:
         # Print a message saying the contact is not in the phonebook
+        # This occurs when the user tries to search for a contact that has not been previously added.
+        # The 'print' function is used to send this message to the user through the console.
         print("The contact is not in the phonebook.")
